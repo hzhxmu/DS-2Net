@@ -1,6 +1,6 @@
 test_path=./dataset/Polyp/test/
 result_map=./result_map/
-model_pth=./checkpoint/DSNet_Polyp.pth
+model_pth=./model/DSNet_Polyp.pth
 result_evaluate=./results/
 
 model_name=DSNet
