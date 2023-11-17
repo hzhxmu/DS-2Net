@@ -35,7 +35,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', type=str, default="Polyp", help='Polyp, BUSI and DSB')
     parser.add_argument('--test_path', type=str, default="./dataset/Polyp/test/", help='test image')   
-    parser.add_argument('--model_pth', type=str, default="./checkpoint/DSNet_Polyp.pth", help='model_pth')
+    parser.add_argument('--model_pth', type=str, default="./model/DSNet_Polyp.pth", help='model_pth')
     parser.add_argument('--result_map', type=str, default="./result_map/", help='result_map_save_pth')
     parser.add_argument('--model_name', type=str, default="DSNet")
     parser.add_argument('--testsize', type=int, default=352)
