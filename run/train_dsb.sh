@@ -1,6 +1,6 @@
 train_path=./dataset/DSB/train/
 test_path=./dataset/DSB/test/
-train_save=./checkpoint/
+train_save=./model/
 train_log=./train_log/
 
 model_name=DSNet
