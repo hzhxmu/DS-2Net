@@ -1,6 +1,6 @@
 train_path=./dataset/BUSI/train/
 test_path=./dataset/BUSI/test/
-train_save=./checkpoint/
+train_save=./model/
 train_log=./train_log/
 
 model_name=DSNet
