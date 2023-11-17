@@ -1,6 +1,6 @@
 test_path=./dataset/DSB/test/
 result_map=./result_map/
-model_pth=./checkpoint/DSNet_DSB.pth
+model_pth=./model/DSNet_DSB.pth
 result_evaluate=./results/
 
 model_name=DSNet
