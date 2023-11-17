@@ -1,6 +1,6 @@
 train_path=./dataset/Polyp/train/
 test_path=./dataset/Polyp/test/
-train_save=./checkpoint/
+train_save=./model/
 train_log=./train_log/
 
 model_name=DSNet
