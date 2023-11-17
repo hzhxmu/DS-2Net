@@ -1,12 +1,15 @@
 # DSNet
 
 ## Requirements
+
 - python 3.9
 - pytorch 2.0.1
 - torchvision 0.15.2
 
 ## Data Preparation
-Downloading training and testing datasets and move them into ./dataset/, which can be found in this [Baidu Drive](https://pan.baidu.com/s/1OWuVwb6jAc27YHH7-IW7QQ ) [code: uf8a]
+
+The datasets are provided in the anonymous [link](https://drive.google.com/drive/folders/16nMa5jvIFbU9xn5NxcwDfm6UVlVfQo2T).
+
 ```
 dataset
 ├── BUSI
@@ -30,14 +33,27 @@ dataset
 ```
 
 ### Pretrained Backbone
-You should download the pretrained backbone from [Baidu Drive](https://pan.baidu.com/s/1BBCUba8CN3oyxbbXyxNl5A) [code: 53dq], and then put it in the './pretrained_pth' folder for initialization.
+
+The pretrained backbone is provided in the anonymous [link](https://drive.google.com/drive/folders/17rbCXDp1tNhwGwqRQgK6BNbDJ05Zewhd).
+
+```
+pretrained_pth
+├── pvt_v2_b2.pth
+```
 
 ## Training
+
 Run the command scripts in `run/` to train models on different datasets. For example,  to train a breast ultrasound image segmentation model, run:
+
 ```
 sh run/train_busi.sh
 ```
 
 ## Evaluating
-You could download the trained model from and put the model in directory './model'.
+
+The trained model are provided in the following anonymous [link](https://drive.google.com/drive/folders/1N1mqTv5YKJW0CchpYfqFgG9rxGhkdPcB). To evaluate them, download the model file and place it into `./model` and then run the command script in `run/`. For example,  to evaluate a breast ultrasound image segmentation model, run:
+
+```
+sh run/test_busi.sh
+```
 
