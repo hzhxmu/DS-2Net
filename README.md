@@ -1,4 +1,4 @@
-# DS$^{2}$Net
+# \text{DS}^{2}\text{Net}
 
 ## Requirements
 
