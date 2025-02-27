@@ -1,4 +1,4 @@
-# DSNet
+# DS$^{2}$Net
 
 ## Requirements
 
