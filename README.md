@@ -1,4 +1,4 @@
-# \text{DS}^{2}\text{Net}
+# DS^2Net
 
 ## Requirements
 
