@@ -8,7 +8,7 @@
 
 ## Data Preparation
 
-The datasets are provided in the anonymous [link](https://drive.google.com/drive/folders/16nMa5jvIFbU9xn5NxcwDfm6UVlVfQo2T).
+The datasets are provided in the [link](https://drive.google.com/drive/folders/16nMa5jvIFbU9xn5NxcwDfm6UVlVfQo2T).
 
 ```
 dataset
@@ -34,7 +34,7 @@ dataset
 
 ### Pretrained Backbone
 
-The pretrained backbone is provided in the anonymous [link](https://drive.google.com/drive/folders/17rbCXDp1tNhwGwqRQgK6BNbDJ05Zewhd).
+The pretrained backbone is provided in the [link](https://drive.google.com/drive/folders/17rbCXDp1tNhwGwqRQgK6BNbDJ05Zewhd).
 
 ```
 pretrained_pth
@@ -51,7 +51,7 @@ sh run/train_busi.sh
 
 ## Evaluating
 
-The trained model are provided in the following anonymous [link](https://drive.google.com/drive/folders/1N1mqTv5YKJW0CchpYfqFgG9rxGhkdPcB). To evaluate them, download the model file and place it into `./model` and then run the command script in `run/`. For example,  to evaluate a breast ultrasound image segmentation model, run:
+The trained model are provided in the following [link](https://drive.google.com/drive/folders/1N1mqTv5YKJW0CchpYfqFgG9rxGhkdPcB). To evaluate them, download the model file and place it into `./model` and then run the command script in `run/`. For example,  to evaluate a breast ultrasound image segmentation model, run:
 
 ```
 sh run/test_busi.sh
