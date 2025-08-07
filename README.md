@@ -1,6 +1,6 @@
 # DS^2Net
-## Paper Link
-[https://arxiv.org/abs/2508.04131](https://arxiv.org/abs/2508.04131)
+## DS^2Net: Detail-Semantic Deep Supervision Network for Medical Image Segmentation
+[Paper Link](https://arxiv.org/abs/2508.04131)
 
 ## Requirements
 
