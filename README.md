@@ -1,4 +1,4 @@
-# DS^2Net
+# DS^2Net [Paper](https://arxiv.org/abs/2508.04131)
 
 ## Requirements
 
